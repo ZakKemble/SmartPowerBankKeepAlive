@@ -2,7 +2,7 @@
 # Author: Zak Kemble, contact@zakkemble.net
 # Copyright: (C) 2020 by Zak Kemble
 # License: 
-# Web: http://blog.zakkemble.co.uk/smart-power-bank-keep-alive/
+# Web: https://blog.zakkemble.net/smart-power-bank-keep-alive/
 
 PROJECT=spbka
 
@@ -11,8 +11,16 @@ MCU=attiny10
 F_CPU=4000000UL
 CPU_DIV=clock_div_2
 
+# COMPILER is passed from runmake.bat
+ifndef COMPILER
 COMPILER=
+endif
+
+# AVRDUDE is passed from runmake.bat
+ifndef AVRDUDE
 AVRDUDE=avrdude
+endif
+
 PREFIX=avr-
 
 SRC_DIR=.
