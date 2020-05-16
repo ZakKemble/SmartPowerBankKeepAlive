@@ -764,15 +764,15 @@
 <wire x1="-3.683" y1="-3.683" x2="-2.921" y2="-2.921" width="0.15" layer="21"/>
 </package>
 <package name="USB-3-TYPE-A-SMD-SOCKET-SLOT">
-<text x="-3.81" y="7.62" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-3.81" y="8.89" size="0.8128" layer="27" ratio="18">&gt;VALUE</text>
+<text x="5.08" y="7.62" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="5.08" y="8.89" size="0.8128" layer="27" ratio="18">&gt;VALUE</text>
 <wire x1="-6.8" y1="-3.625" x2="-6.8" y2="4.855" width="0.15" layer="21" style="shortdash"/>
 <wire x1="-6.8" y1="4.855" x2="-6.8" y2="7.125" width="0.15" layer="21"/>
 <wire x1="-6.8" y1="7.125" x2="6.8" y2="7.125" width="0.15" layer="21"/>
 <wire x1="6.8" y1="7.125" x2="6.8" y2="4.855" width="0.15" layer="21"/>
 <wire x1="6.8" y1="4.855" x2="6.8" y2="-3.625" width="0.15" layer="21" style="shortdash"/>
 <wire x1="6.8" y1="-7.125" x2="-6.8" y2="-7.125" width="0.15" layer="51"/>
-<smd name="GND" x="3" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="GND" x="3" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
 <wire x1="-4" y1="-5.485" x2="-5.27" y2="-0.945" width="0.15" layer="51"/>
 <wire x1="-0.73" y1="-0.945" x2="-2" y2="-5.485" width="0.15" layer="51"/>
 <wire x1="-2" y1="-5.485" x2="-4" y2="-5.485" width="0.15" layer="51"/>
@@ -782,14 +782,14 @@
 <wire x1="-6.8" y1="4.855" x2="6.8" y2="4.855" width="0.15" layer="21" style="shortdash"/>
 <pad name="PAD2" x="7.9" y="5.325" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
 <pad name="PAD1" x="-7.9" y="5.325" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
-<smd name="D+" x="1" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="D-" x="-1" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="VBUS" x="-3" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="SSRX+" x="-4" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="SSRX-" x="-2" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="GND_DRAIN" x="0" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="SSTX+" x="2" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<smd name="SSTX-" x="4" y="6.375" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="D+" x="1" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="D-" x="-1" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="VBUS" x="-3" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="SSRX+" x="-4" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="SSRX-" x="-2" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="GND_DRAIN" x="0" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="SSTX+" x="2" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
+<smd name="SSTX-" x="4" y="6.575" dx="2" dy="0.7" layer="1" rot="R90"/>
 <smd name="PAD3" x="-7.775" y="1.375" dx="1.45" dy="2.2" layer="1"/>
 <smd name="PAD4" x="7.775" y="1.375" dx="1.45" dy="2.2" layer="1"/>
 <wire x1="-6.8" y1="0.775" x2="-7.74" y2="0.775" width="0.15" layer="51"/>
