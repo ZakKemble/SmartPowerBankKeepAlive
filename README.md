@@ -1,4 +1,4 @@
-# Smart Power Bank Keep-Alive
+# Smart Power Bank Keep-Alive (v2.x)
 
 Keep USB power banks alive when powering low-power projects with this pulsed constant current sink USB module.
 
@@ -7,4 +7,4 @@ Keep USB power banks alive when powering low-power projects with this pulsed con
 |Hardware version|Branch|Photo|
 |---|---|---|
 |v2.x|[main](https://github.com/zakkemble/SmartPowerBankKeepAlive) (you are currently on this one)|![image](https://github.com/zakkemble/SmartPowerBankKeepAlive/raw/main/images/spbka.jpg "")|
-|v1.x|[v1.x](https://github.com/zakkemble/SmartPowerBankKeepAlive/branch/v1.x/)|![image](https://github.com/zakkemble/SmartPowerBankKeepAlive/raw/main/images/spbka.jpg "")|
+|v1.x|[v1.x](https://github.com/zakkemble/SmartPowerBankKeepAlive/tree/v1.x)|![image](https://github.com/zakkemble/SmartPowerBankKeepAlive/raw/v1.x/images/spbka.jpg "")|
